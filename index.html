@@ -2,13 +2,21 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8">
-        <title>APi Rick & Morty</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <title>Rick & Morty</title>
     </head>
     <body>
         <h1>APi Rick & Morty</h1>
-        <div class="image">
-            <img src="http://mouse.latercera.com/wp-content/uploads/2017/09/rick-sanchez-broma-900x600.png">
-        </div>
+        <div class="card" style="width: 18rem;" id = 'personaje'>
+            <!--<img src="..." class="card-img-top" alt="...">-->
+            <div class="card-body">
+              <h4 class="card-title">Nombre del personaje</h4>
+              <h5 class="card-title">Episodio</h5>
+              <p class="card-text">Estatus</p>
+              <a href="#" class="btn btn-primary" onclick="mostrar()">clic</a>
+            </div>
+          </div>
         <script src="main.js"></script>
     </body>
 </html>
